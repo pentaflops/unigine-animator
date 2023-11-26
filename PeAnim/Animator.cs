@@ -13,7 +13,7 @@ public class Animator
 		var meshSkinned = node as ObjectMeshSkinned;
 		if (!meshSkinned)
 		{
-			Log.Error("AnimationStatesProcessor: Can't cast node to ObjectMeshSkinned\n");
+			Log.Error("Animator: Can't cast node to ObjectMeshSkinned\n");
 			return;
 		}
 
